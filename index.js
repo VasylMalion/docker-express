@@ -3,7 +3,7 @@ const app = express()
 const port = process.env.PORT || 5000
 
 app.get('/', (req, res) => {
-  res.send('Server is working v3.0!')
+  res.send('Server is working v4.0!')
 })
 
 app.listen(port, () => {
