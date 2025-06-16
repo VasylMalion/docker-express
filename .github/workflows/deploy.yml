@@ -30,7 +30,7 @@ jobs:
           docker push ${{ secrets.DOCKERHUB_USERNAME }}/docker-express:latest
 
   trigger-render:
-    name: Optional: Trigger Render Deploy Hook
+    name: Optional Trigger Render Deploy Hook
     runs-on: ubuntu-latest
     needs: build-and-push
 
